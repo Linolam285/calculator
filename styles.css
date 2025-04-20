@@ -1,0 +1,40 @@
+.body {
+    margin:0;
+    padding:0;
+}
+
+.calculator {
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    width:15vw;
+    height:20vh;
+}
+
+.display {
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    background-color: darkolivegreen;
+}
+
+.buttonsArea {
+    display:flex;
+    gap:2px;
+    border:2px solid red;
+    height:18vh;
+    width:auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsArea > button {
+    border:none;
+    color:white;
+    background-color:dimgray;
+    padding:8px;
+    width:20%;
+    height:20%;
+
+}
